@@ -30,6 +30,9 @@ body {
 	.jarallax {
 	height: 500px;
   }
+  #rc-anchor-container {
+	  width: 250px;
+  }
 }
 
 .photo {
