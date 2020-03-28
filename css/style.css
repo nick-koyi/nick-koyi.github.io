@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+#intro {
+    background: url(../img/architecut.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	height: 500px;
+}
+
+.jarallax {
+	min-height: 300px;
+}
+
+#portfolio  a {
+	color: yellow;
+}
+
+#portfolio  a:hover{
+	color: #fff;
+}
+
+@media (max-width: 767px) {
+	.jarallax {
+	height: 400px;
+  }
+}
+
+.photo {
+	height: 200px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+}
+
+.q-train {
+	width: 300px;
+	height: auto;
+}
+
+.mtkenya {
+   	width: 300px;
+	height: auto;	
+}
+ 
+  
+ .top-nav-collapse {
+  background-color: #24355C;
+}
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355C;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355C;
+  }
+}
