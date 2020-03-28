@@ -1,0 +1,100 @@
+.photo {
+	width: 250px;
+	border-radius: 50%;
+	border: solid 3px rgba(255,255,255,.8);
+}
+body {
+        font-family: 'Raleway', sans-serif;
+        font-size: 17px;
+      }
+	  
+
+.imagey:hover {
+  opacity: 0.3;
+}
+
+.navbar-nav li a {
+	color: blue !important;
+}
+
+.cfimagey:hover {
+ opacity: 0.3;	
+}
+
+.aid:hover {
+  opacity: 0.3;
+}
+
+.overlay {
+  background-color: #99ffcc;
+  position: relative;
+  opacity: 1;
+  display: block;
+  height: auto;
+  backface-visibility: hidden;
+}
+
+
+img {
+	width: 100%;
+}
+
+#mainNav {
+  background-color: #fff;
+  font-size: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#navBrand {
+	background-color: #fff;
+}
+
+#jumboTron {
+  background-image: url('../img/gc.jpg');
+  background-size: cover;
+}
+
+
+a {
+	color: yellow;
+}
+
+a.bw {
+	color: #800000;
+}
+
+a.facebook {
+	color: #3b5998;
+	border: solid 1px #3b5998 ;
+}
+
+a.twitter {
+	color: #1DA1F2;
+	border: solid 1px #1DA1F2 ;
+}
+
+a.linkedin {
+	color: #0e76a8;
+	border: solid 1px #0e76a8 ;
+}
+
+a.github {
+	color: #000000;
+	border: solid 1px #000000;
+}
+
+.vl {
+  border-left: 3px solid green;
+  height: 200px;
+}
+
+.main-footer {
+	color: white;
+	background: #E3F6F6;
+	padding: 2em 0;
+	margin-top: 30px; 
+	position: absolute;
+	margin-bottom: 0;
+	width: 100%;
+}

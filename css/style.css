@@ -11,6 +11,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
 	height: 500px;
+	width: 100%
 }
 
 .jarallax {
@@ -27,7 +28,7 @@ body {
 
 @media (max-width: 767px) {
 	.jarallax {
-	height: 400px;
+	height: 500px;
   }
 }
 
