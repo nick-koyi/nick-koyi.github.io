@@ -132,7 +132,7 @@
         <h2 class="text-center black-text font-weight-bold mt-3">Contact Me</h2>
 		<p class="text-center">For any Enquries</p>
   <!-- Form contact -->
-  <form class="p-3 grey-text" action="POST" data-netlify="true">
+  <form class="p-3 grey-text" action="POST" data-netlify="true" data-netlify-recaptcha="true">
     <div class="md-form form-sm"> <i class="fas fa-user prefix"></i>
       <input type="text" name="names" id="names" class="form-control form-control-sm" required>
       <label for="names">Your name</label>
@@ -149,7 +149,7 @@
       <textarea type="text" name="message" id="message" class="md-textarea form-control form-control-sm" rows="4"></textarea>
       <label for="message">Your message</label>
     </div>
-     <span data-netlify-recaptcha="true"></span>
+   
     <div class="text-center mt-4">
       <button class="btn btn-primary">Send <i class="far fa-paper-planeml-1"></i></button>
     </div>
