@@ -8,7 +8,10 @@
   <title>Nicholas Koyi</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Favicon -->
   <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
@@ -17,8 +20,8 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body id="home">
-<!--Main Navigation-->
+<body>
+
 <header>
 <!--Navbar-->
 <nav class="navbar navbar-expand-lg scrolling-navbar navbar-dark fixed-top">
@@ -34,24 +37,21 @@
 
   <!-- Collapsible content -->
   <div class="collapse navbar-collapse" id="basicExampleNav">
-
     <!-- Links -->
-    <ul class="navbar-nav mx-auto smooth-scroll">
+    <ul class="navbar-nav ml-auto smooth-scroll">
       <li class="nav-item px-2">
-        <a class="nav-link" href="#home">Home
+        <a class="nav-link" href="#">Home
         </a>
       </li>
       <li class="nav-item px-2">
-        <a class="nav-link" href="#portfolio">Portfolio</a>
+        <a class="nav-link" href="#portfolio" data-offset="80">Portfolio</a>
       </li>
       <li class="nav-item px-2">
-        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#about" data-offset="80">About</a>
       </li>
 	    <li class="nav-item px-2">
-        <a class="nav-link" href="#contact">Contact</a>
+        <a class="nav-link" href="#contact" data-offset="80">Contact</a>
       </li>
-
-
     </ul>
     <!-- Links -->
 
@@ -60,26 +60,16 @@
   </div>
 </nav>
 <!--/.Navbar-->
-
+        <div class="card text-center">
+		    <img src="img/nky.jpg" class="img-fluid animated jello delay-2s card-img-top rounded-circle" alt="Nicholas Koyi">
+			<h4 class="card-title">Nicholas Koyi</h4>
+			<p class="card-text">Front-End Web Developer - Wordpress Designer <br>
+	HTML5 * CSS3 * JAVASCRIPT * VUE.JS * PHP</p>
+		</div>
 </header>
 <!--Main Navigation-->
 <!--Main layout-->
 <main>
-<!--Mask-->
-<!--Mask-->
-<div id="intro" class="view">
-
-  <div class="mask rgba-black-strong">
-    <div class="container mx-auto text-center" style="margin-top: 150px;">
-	  <img class="img-fluid photo d-block mx-auto mt-5 animated jello delay-2s" src="img/nky.jpg" alt="Nicholas">
-        <h1 class="white-text">Nicholas Koyi</h1>
-        <p class="white-text">Front-End Web Developer - Wordpress Designer <br>
-	HTML5 * CSS3 * JAVASCRIPT * VUE.JS * PHP</p>
-	</div>
-  </div>
-
-</div>
-<!--/.Mask-->
 <section id="portfolio" data-wow-delay="0.6s" class="wow fadeInUp">
 
 <h1 class="text-center font-weight-bold">Projects</h1>
@@ -149,16 +139,13 @@
       <textarea type="text" name="message" id="message" class="md-textarea form-control form-control-sm" rows="4"></textarea>
       <label for="message">Your message</label>
     </div>
-   
-    <div class="text-center mt-4">
-      <button class="btn btn-primary">Send <i class="far fa-paper-planeml-1"></i></button>
-    </div>
   </form>
   <!-- Form contact -->
-
-<!--Grid column-->
-</div>
-<div data-netlify-recaptcha="true"></div>
+  </div>
+    <div data-netlify-recaptcha="true"></div>
+  <div class="text-center mt-4">
+      <button class="btn btn-primary">Send <i class="far fa-paper-planeml-1"></i></button>
+    </div>
 </section>
 </main>
 <!--Main layout-->
@@ -233,8 +220,7 @@ jarallax(document.querySelectorAll('.jarallax'));
 jarallax(document.querySelectorAll('.jarallax-keep-img'), {
     keepImg: true,
 });
-  </script>
-  <script>
+ 
   $( document ).ready(function() {
   new WOW().init();
 });
